@@ -1,0 +1,77 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 8%;
+	font-size: 16px;
+}
+.page-header {
+	padding: 2%;
+}
+
+/* media icon imgs */
+.media-icons {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.media-icons:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.media-icons {
+  width: 35px;
+  height: 35px;
+}
+.somed-icons {
+  text-align: center;
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  margin: 0;
+}
+.somed-icons > li {
+  display: inline-block;
+  padding: 2% 2% 0% 2%;
+}
+.media-icons-a {
+	padding: 7.5px!important;
+	height: 50px;
+	width: 50px;
+}
+
+/* blog bits */
+/*.blog-ad-well {
+	padding: 0px 0px 20px 0px;	
+	height: 550px;
+}
+.blog-ad-well > p {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.blog-ad-well > h2 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.blog-ad-well > a {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.blog-jumbo {
+	margin-top: 50px;
+	padding-top: 0px!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.blog-jumbo > p {
+	font-size: 16px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.blog-jumbo > h1 {
+	padding-left: 60px;
+	padding-right: 60px;
+}
+.blog-jumbo > img {
+	padding: 0px;
+}
+.blog-img {
+	width:100%;
+}*/

@@ -4,8 +4,8 @@
 
 
 # Research
-### PhD - University of East Anglia (2020)
-#### Revealing DNA's Secret Structures: Developing an i-Motif Specific Fluorescent Probe for Cellular Imaging|
+## PhD - University of East Anglia (2020)
+### Revealing DNA's Secret Structures: Developing an i-Motif Specific Fluorescent Probe for Cellular Imaging|
 
 Supervisors: Dr. Zo&euml; A. E. Waller & Dr. John Fielden
 
@@ -13,8 +13,8 @@ i-Motif DNA has been shown to form in the promoter regions of many genes relatin
 
 Keywords: ruthenium-based fluorophores; transition metal polypyridyls; DNA secondary structures; DNA-ligand binding
 
-### MChem - University of East Anglia (2015)
-#### Enhancing the Optical and Electropolymerisation Properties of Polyoxometalate-based Nonlinear Optical Chromophores
+## MChem - University of East Anglia (2015)
+### Enhancing the Optical and Electropolymerisation Properties of Polyoxometalate-based Nonlinear Optical Chromophores
 
 Supervisor: Dr. John Fielden
 

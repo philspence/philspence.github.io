@@ -5,10 +5,10 @@
 
 # Research
 |PhD - University of East Anglia (2020)|
-|:---|:---|
+|---|---|
 |Title:|Revealing DNA's Secret Structures: Developing an i-Motif Specific Fluorescent Probe for Cellular Imaging|
 |Summary:|Supervisors:|Dr. Zo&euml; A. E. Waller & Dr. John Fielden|
-|i-Motif DNA has been shown to form in the promoter regions of many genes relating to various diseases. There currently exists no i-motif specific small molecule probe to help discover its biological significance, this project focusses on tackling exactly that; to develop a ruthenium-based i-motif specific probe.|
+|Summary|i-Motif DNA has been shown to form in the promoter regions of many genes relating to various diseases. There currently exists no i-motif specific small molecule probe to help discover its biological significance, this project focusses on tackling exactly that; to develop a ruthenium-based i-motif specific probe.|
 |Keywords:|ruthenium-based fluorophores; transition metal polypyridyls; DNA secondary structures; DNA-ligand binding
 
 |MChem - University of East Anglia (2015)|

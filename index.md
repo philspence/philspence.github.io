@@ -27,6 +27,6 @@ Al-Yasari, A.; **Spence, P.**; El Moll, H.; Van Steerteghem, N.; Horton, P. N.; 
 Python script for virtual screening of small molecule libraries or randomly generated molecules to multiple receptors.
 [See GitHub](https://github.com/philspence/gendock)
 
-##CSVplot
+## CSVplot
 GUI for plotting CSV data files and calculating various functions.
 [See GitHub](https://github.com/philspence/CSVplot)

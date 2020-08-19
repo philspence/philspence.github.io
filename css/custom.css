@@ -36,6 +36,9 @@ body {
 	height: 50px;
 	width: 50px;
 }
+#research_interests{
+	margin-top: 2%;
+}
 
 /* blog bits */
 /*.blog-ad-well {

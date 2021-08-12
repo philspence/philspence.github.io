@@ -6,6 +6,10 @@ body {
 .page-header {
 	padding: 2%;
 }
+#notice {
+	font-size: 72px;
+	text-align: center;
+}
 
 /* media icon imgs */
 .media-icons {
@@ -45,7 +49,7 @@ body {
 
 /* blog bits */
 /*.blog-ad-well {
-	padding: 0px 0px 20px 0px;	
+	padding: 0px 0px 20px 0px;
 	height: 550px;
 }
 .blog-ad-well > p {

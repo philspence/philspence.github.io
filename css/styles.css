@@ -7,14 +7,16 @@ body {
 /* Timeline, research paper, and github project animations */
 .timeline-entry,
 .research-paper,
-.github-project {
+.github-project,
+.skills-entry {
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
 }
 
 .timeline-entry.visible,
 .research-paper.visible,
-.github-project.visible {
+.github-project.visible,
+.skills-entry.visible {
     opacity: 1;
 }
 

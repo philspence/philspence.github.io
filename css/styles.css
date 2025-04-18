@@ -4,15 +4,17 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Timeline and research paper animations */
+/* Timeline, research paper, and github project animations */
 .timeline-entry,
-.research-paper {
+.research-paper,
+.github-project {
     transition: opacity 0.5s ease-in-out;
     opacity: 0;
 }
 
 .timeline-entry.visible,
-.research-paper.visible {
+.research-paper.visible,
+.github-project.visible {
     opacity: 1;
 }
 

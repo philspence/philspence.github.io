@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Timeline scroll animation
     const timelineEntries = document.querySelectorAll('.timeline-entry');
     const researchPapers = document.querySelectorAll('.research-paper');
+    const githubProjects = document.querySelectorAll('.github-project');
     
     const observerOptions = {
         root: null,
@@ -32,5 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Observe research papers for scroll animation
     researchPapers.forEach(paper => {
         observer.observe(paper);
+    });
+    
+    // Observe GitHub projects for scroll animation
+    githubProjects.forEach(project => {
+        observer.observe(project);
     });
 });

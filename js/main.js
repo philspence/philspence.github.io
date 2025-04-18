@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const timelineEntries = document.querySelectorAll('.timeline-entry');
     const researchPapers = document.querySelectorAll('.research-paper');
     const githubProjects = document.querySelectorAll('.github-project');
-    const skillsEntry = document.querySelectorAll('.skills-entry');
+    const skillsEntries = document.querySelectorAll('.skills-entry');
     
     const observerOptions = {
         root: null,
@@ -30,6 +30,11 @@ document.addEventListener('DOMContentLoaded', function() {
     timelineEntries.forEach(item => {
         observer.observe(item);
     });
+
+    // Observe Skills section
+    skillsEntries.forEach(entry => {
+        observer.observe(entry);
+    });
     
     // Observe research papers for scroll animation
     researchPapers.forEach(paper => {
@@ -41,7 +46,4 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(project);
     });
 
-    skillsEntry.forEach(entry => {
-        observer.observe(entry);
-    });
 });

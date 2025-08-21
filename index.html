@@ -1,158 +1,270 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phil Spence</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
-<body class="bg-gray-900 text-gray-200 min-h-screen">
-    
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-900 text-gray-200 min-h-screen">
     <!-- Header Section -->
-    <header class="container mx-auto px-4 py-10 flex flex-col items-center md:items-start">
-        <div class="w-full max-w-4xl">
-            <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Phil Spence</h1>
-            <h2 class="text-xl md:text-2xl font-light text-gray-400 mb-8">Founder; Developer; Scientist</h2>
-            
-            <!-- Social Links -->
-            <div class="flex space-x-4 text-xl">
-                <a href="https://github.com/philspence" class="text-gray-400 hover:text-white transition-colors duration-300" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/philspence" class="text-gray-400 hover:text-white transition-colors duration-300" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-                <a href="https://bsky.app/profile/phil-spence.bsky.social" class="text-gray-400 hover:text-white transition-colors duration-300" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-bluesky"></i>
-                </a>
-            </div>
+    <header
+      class="container mx-auto px-4 py-10 flex flex-col items-center md:items-start"
+    >
+      <div class="w-full max-w-4xl">
+        <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">
+          Phil Spence
+        </h1>
+        <h2 class="text-xl md:text-2xl font-light text-gray-400 mb-8">
+          Founder; Developer; Scientist
+        </h2>
+
+        <!-- Social Links -->
+        <div class="flex space-x-4 text-xl">
+          <a
+            href="https://github.com/philspence"
+            class="text-gray-400 hover:text-white transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            href="https://linkedin.com/in/philspence"
+            class="text-gray-400 hover:text-white transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://bsky.app/profile/phil-spence.bsky.social"
+            class="text-gray-400 hover:text-white transition-colors duration-300"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-bluesky"></i>
+          </a>
         </div>
+      </div>
     </header>
 
     <!-- About Section -->
     <section class="container mx-auto px-4 py-10">
-        <div class="w-full max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-6">About Me</h2>
-            <p class="text-gray-300 leading-relaxed mb-6">
-                A multidisciplinary professional with expertise at the intersection of chemistry, software development, and machine learning. As the Head of Informatics and Co-founder at HotHouse Therapeutics, I leverage my extensive background in scientific research and computational methods to develop innovative solutions. My journey began with a solid foundation in chemistry, earning both my MChem and PhD from the University of East Anglia, followed by postdoctoral research at the prestigious John Innes Centre.
-            </p>
-            <p class="text-gray-300 leading-relaxed">
-                My technical skillset spans multiple domains including software development in Python, C/C++, and JavaScript, as well as specialized expertise in machine learning frameworks like PyTorch and CUDA. As a cheminformatician, I utilize tools like RDKit to bridge the gap between chemical data and computational analysis. My research is documented in peer-reviewed scientific publications, reflecting my commitment to advancing knowledge at the frontier of computational chemistry and therapeutic development.
-            </p>
-        </div>
+      <div class="w-full max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-6">About Me</h2>
+        <p class="text-gray-300 leading-relaxed mb-6">
+          A multidisciplinary professional with expertise at the intersection of
+          chemistry, software development, and machine learning. As the Head of
+          Informatics and Co-founder at HotHouse Therapeutics, I leverage my
+          extensive background in scientific research and computational methods
+          to develop innovative solutions. My journey began with a solid
+          foundation in chemistry, earning both my MChem and PhD from the
+          University of East Anglia, followed by postdoctoral research at the
+          prestigious John Innes Centre.
+        </p>
+        <p class="text-gray-300 leading-relaxed">
+          My technical skillset spans multiple domains including software
+          development in Python, C/C++, and JavaScript, as well as specialized
+          expertise in machine learning frameworks like PyTorch and CUDA. As a
+          cheminformatician, I utilize tools like RDKit to bridge the gap
+          between chemical data and computational analysis. My research is
+          documented in peer-reviewed scientific publications, reflecting my
+          commitment to advancing knowledge at the frontier of computational
+          chemistry and therapeutic development.
+        </p>
+      </div>
     </section>
 
     <!-- Timeline Section -->
-    <section id="timeline-section" class="container mx-auto px-4 py-10 relative">
-        <div class="w-full max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-10">Career Timeline</h2>
-            
-            <!-- Timeline line -->
-            <div class="absolute left-0 md:left-1/2 transform md:translate-x-px h-full w-px bg-gray-700 timeline-line"></div>
-            
-            <!-- Timeline entries -->
-            <div class="space-y-24 relative">
-                <!-- Timeline Entry 1 -->
-                <div class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500">
-                    <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
-                        <div class="timeline-date text-lg text-indigo-400 font-semibold mb-2">2024 - Present</div>
-                        <h3 class="timeline-title text-xl text-white font-bold mb-2">Head of Informatics & Co-founder</h3>
-                        <p class="timeline-company text-gray-400 mb-4">HotHouse Therapeutics</p>
-                    </div>
-                    <div class="md:w-1/2 pl-10">
-                        <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"></div>
-                        <p class="timeline-description text-gray-300">
-                            Founding scientist. Development and deployment of ML/AI models (LLMs & GNNs) to predict both the chemistry & biology of natural products. Cheminformatic analysis of natural chemical space. Establishment of company tech stack from the ground up.
-                        </p>
-                    </div>
-                </div>
+    <section
+      id="timeline-section"
+      class="container mx-auto px-4 py-10 relative"
+    >
+      <div class="w-full max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-10">Career Timeline</h2>
 
-                <div class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500">
-                    <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
-                        <div class="timeline-date text-lg text-indigo-400 font-semibold mb-2">2020 - 2024</div>
-                        <h3 class="timeline-title text-xl text-white font-bold mb-2">Postdoctoral Researcher</h3>
-                        <p class="timeline-company text-gray-400 mb-4">John Innes Centre</p>
-                    </div>
-                    <div class="md:w-1/2 pl-10">
-                        <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"></div>
-                        <p class="timeline-description text-gray-300">
-                            Applying machine learning to predict the bioactivity of natural products. Establishing the theoretical chemical space of triterpenes. Develop an <i>in silico</i> enzyme reaction toolkit. Predicting the reactivity of triterpene cyclases.
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Timeline Entry 2 -->
-                <div class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500">
-                    <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
-                        <div class="timeline-date text-lg text-indigo-400 font-semibold mb-2">2016 - 2020</div>
-                        <h3 class="timeline-title text-xl text-white font-bold mb-2">PhD Chemistry</h3>
-                        <p class="timeline-company text-gray-400 mb-4">University of East Anglia</p>
-                    </div>
-                    <div class="md:w-1/2 pl-10">
-                        <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"></div>
-                        <p class="timeline-description text-gray-300">
-                            Development of fluorescent probes to target i-motif DNA. <i>In silico</i> and <i>in vitro</i> screening of i-motif binding ligands.
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Timeline Entry 3 -->
-                <div class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500">
-                    <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
-                        <div class="timeline-date text-lg text-indigo-400 font-semibold mb-2">2011 - 2015</div>
-                        <h3 class="timeline-title text-xl text-white font-bold mb-2">MChem Chemistry</h3>
-                        <p class="timeline-company text-gray-400 mb-4">University of East Anglia</p>
-                    </div>
-                    <div class="md:w-1/2 pl-10">
-                        <div class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"></div>
-                        <p class="timeline-description text-gray-300">
-                            Development of novel polyoxometalate non-linear optical chromophores for the application of dye-sensitized solar cells.
-                        </p>
-                    </div>
-                </div>
-                
-                <!-- Add more timeline entries as needed -->
+        <!-- Timeline line -->
+        <div
+          class="absolute left-0 md:left-1/2 transform md:translate-x-px h-full w-px bg-gray-700 timeline-line"
+        ></div>
+
+        <!-- Timeline entries -->
+        <div class="space-y-24 relative">
+          <!-- Timeline Entry 1 -->
+          <div
+            class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500"
+          >
+            <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
+              <div
+                class="timeline-date text-lg text-indigo-400 font-semibold mb-2"
+              >
+                2024 - Present
+              </div>
+              <h3 class="timeline-title text-xl text-white font-bold mb-2">
+                Head of Informatics & Co-founder
+              </h3>
+              <p class="timeline-company text-gray-400 mb-4">
+                HotHouse Therapeutics
+              </p>
             </div>
+            <div class="md:w-1/2 pl-10">
+              <div
+                class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"
+              ></div>
+              <p class="timeline-description text-gray-300">
+                Founding scientist. Development and deployment of ML/AI models
+                (LLMs & GNNs) to predict both the chemistry & biology of natural
+                products. Cheminformatic analysis of natural chemical space.
+                Establishment of company tech stack from the ground up.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500"
+          >
+            <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
+              <div
+                class="timeline-date text-lg text-indigo-400 font-semibold mb-2"
+              >
+                2020 - 2024
+              </div>
+              <h3 class="timeline-title text-xl text-white font-bold mb-2">
+                Postdoctoral Researcher
+              </h3>
+              <p class="timeline-company text-gray-400 mb-4">
+                John Innes Centre
+              </p>
+            </div>
+            <div class="md:w-1/2 pl-10">
+              <div
+                class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"
+              ></div>
+              <p class="timeline-description text-gray-300">
+                Applying machine learning to predict the bioactivity of natural
+                products. Establishing the theoretical chemical space of
+                triterpenes. Develop an <i>in silico</i> enzyme reaction
+                toolkit. Predicting the reactivity of triterpene cyclases.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Entry 2 -->
+          <div
+            class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500"
+          >
+            <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
+              <div
+                class="timeline-date text-lg text-indigo-400 font-semibold mb-2"
+              >
+                2016 - 2020
+              </div>
+              <h3 class="timeline-title text-xl text-white font-bold mb-2">
+                PhD Chemistry
+              </h3>
+              <p class="timeline-company text-gray-400 mb-4">
+                University of East Anglia
+              </p>
+            </div>
+            <div class="md:w-1/2 pl-10">
+              <div
+                class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"
+              ></div>
+              <p class="timeline-description text-gray-300">
+                Development of fluorescent probes to target i-motif DNA.
+                <i>In silico</i> and <i>in vitro</i> screening of i-motif
+                binding ligands.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Entry 3 -->
+          <div
+            class="timeline-entry flex flex-col md:flex-row opacity-0 transition-opacity duration-500"
+          >
+            <div class="md:w-1/2 pr-10 md:text-right pb-10 md:pb-0">
+              <div
+                class="timeline-date text-lg text-indigo-400 font-semibold mb-2"
+              >
+                2011 - 2015
+              </div>
+              <h3 class="timeline-title text-xl text-white font-bold mb-2">
+                MChem Chemistry
+              </h3>
+              <p class="timeline-company text-gray-400 mb-4">
+                University of East Anglia
+              </p>
+            </div>
+            <div class="md:w-1/2 pl-10">
+              <div
+                class="timeline-dot absolute left-0 md:left-1/2 transform -translate-x-1/2 w-4 h-4 rounded-full bg-indigo-500"
+              ></div>
+              <p class="timeline-description text-gray-300">
+                Development of novel polyoxometalate non-linear optical
+                chromophores for the application of dye-sensitized solar cells.
+              </p>
+            </div>
+          </div>
+
+          <!-- Add more timeline entries as needed -->
         </div>
+      </div>
     </section>
-    
+
     <!-- Skills Section -->
     <section id="skills-section" class="container mx-auto px-4 py-10">
-        <div class="w-full max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-6">Skills</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <div class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg">
-                    <h3 class="text-lg font-semibold text-white mb-3">Software</h3>
-                    <ul class="text-gray-300 space-y-2">
-                        <li>Scientific (Python, C/C++)</li>
-                        <li>Data (SQL, Cypher)</li>
-                        <li>Frontend (HTML, CSS, JS)</li>
-                    </ul>
-                </div>
-                <div class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg">
-                    <h3 class="text-lg font-semibold text-white mb-3">Machine Learning</h3>
-                    <ul class="text-gray-300 space-y-2">
-                        <li>PyTorch/LibTorch</li>
-                        <li>Huggingface</li>
-                        <li>LLMs; GFlowNets; GNNs</li>
-                    </ul>
-                </div>
-                <div class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg">
-                    <h3 class="text-lg font-semibold text-white mb-3">Cheminformatician</h3>
-                    <ul class="text-gray-300 space-y-2">
-                        <li>RDKit (Python/C++)</li>
-                        <li>Data Science (Pandas, Matplotlib, NumPy)</li>
-                        <li>Computational Chemistry (GROMACS, AutoDock)</li>
-                    </ul>
-                </div>
-            </div>
+      <div class="w-full max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-6">Skills</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div
+            class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg"
+          >
+            <h3 class="text-lg font-semibold text-white mb-3">Software</h3>
+            <ul class="text-gray-300 space-y-2">
+              <li>Scientific (Python, C/C++)</li>
+              <li>Data (SQL, Cypher)</li>
+              <li>Frontend (HTML, CSS, JS)</li>
+            </ul>
+          </div>
+          <div
+            class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg"
+          >
+            <h3 class="text-lg font-semibold text-white mb-3">
+              Machine Learning
+            </h3>
+            <ul class="text-gray-300 space-y-2">
+              <li>PyTorch/LibTorch</li>
+              <li>Huggingface</li>
+              <li>LLMs; GFlowNets; GNNs</li>
+            </ul>
+          </div>
+          <div
+            class="skills-entry opacity-0 transition-opacity duration-500 p-4 bg-gray-800 rounded-lg"
+          >
+            <h3 class="text-lg font-semibold text-white mb-3">
+              Cheminformatician
+            </h3>
+            <ul class="text-gray-300 space-y-2">
+              <li>RDKit (Python/C++)</li>
+              <li>Data Science (Pandas, Matplotlib, NumPy)</li>
+              <li>Computational Chemistry (GROMACS, AutoDock)</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- GitHub Projects Section -->
-     <!--
+    <!--
     <section class="container mx-auto px-4 py-10">
         <div class="w-full max-w-4xl mx-auto">
             <h2 class="text-3xl font-bold text-white mb-6">GitHub Projects</h2>
@@ -261,82 +373,179 @@
 
     <!-- Scientific Research Papers Section -->
     <section class="container mx-auto px-4 py-10">
-        <div class="w-full max-w-4xl mx-auto">
-            <h2 class="text-3xl font-bold text-white mb-6">Research Papers</h2>
-            <div class="space-y-6">
-
-                <div class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300">
-                    <h3 class="text-xl font-bold text-white mb-2">Harnessing plant biosynthesis for the development of next-generation therapeutics</h3>
-                    <p class="text-gray-400 mb-3">
-                        <span class="text-indigo-400"><i>Spence P</i>, Reed J, Osbourn A</span> • <span>PLOS Biology</span> • <span>2024</span>
-                    </p>
-                    <div class="flex space-x-3">
-                        <a href="https://doi.org/10.1371/journal.pbio.3002886" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1"></i> DOI
-                        </a>
-                    </div>
-                </div>
-                
-                
-                <div class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300">
-                    <h3 class="text-xl font-bold text-white mb-2">Optical, third order non-linear optical and electrochemical properties of dipolar, centrosymmetric and C2v organoimido polyoxometalate derivatives</h3>
-                    <p class="text-gray-400 mb-3">
-                        <span class="text-indigo-400">Al-Yasari A, El Moll H, Purdy R, Vincent KB, <i>Spence P</i>, Malval JP, Fielden J</span> • <span>Physical Chemistry Chemical Physics</span> • <span>2021</span>
-                    </p>
-                    <div class="flex space-x-3">
-                        <a href="https://doi.org/10.1039/d0cp06610a" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1"></i> DOI
-                        </a>
-                    </div>
-                </div>
-                
-                
-                <div class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300">
-                    <h3 class="text-xl font-bold text-white mb-2">[(C C)Au(N N)]<sup>+</sup> Complexes as a New Family of Anticancer Candidates: Synthesis, Characterization and Exploration of the Antiproliferative Properties</h3>
-                    <p class="text-gray-400 mb-3">
-                        <span class="text-indigo-400">Khodjoyan S, Remadna E, Dossmann H, Lesage D, Gontard G, Forté J, Hoffmeister H, Basu U, Ott I, <i>Spence P</i> et al.</span> • <span>Chemistry – A European Journal</span> • <span>2021</span>
-                    </p>
-                    <div class="flex space-x-3">
-                        <a href="https://doi.org/10.1002/chem.202102751" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1"></i> DOI
-                        </a>
-                    </div>
-                </div>
-
-                <div class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300">
-                    <h3 class="text-xl font-bold text-white mb-2">Beyond Solvent Exclusion: i-Motif Detecting Capability and an Alternative DNA Light-Switching Mechanism in a Ruthenium(II) Polypyridyl Complex</h3>
-                    <p class="text-gray-400 mb-3">
-                        <span class="text-indigo-400"><i>Spence P</i>, Fielden J, Waller ZAE</span> • <span>Journal of the American Chemical Society</span> • <span>2020</span>
-                    </p>
-                    <div class="flex space-x-3">
-                        <a href="https://doi.org/10.1021/jacs.0c04789" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1"></i> DOI
-                        </a>
-                    </div>
-                </div>
-
-                <div class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300">
-                    <h3 class="text-xl font-bold text-white mb-2">Fine-tuning polyoxometalate non-linear optical chromophores: a molecular electronic “Goldilocks” effect</h3>
-                    <p class="text-gray-400 mb-3">
-                        <span class="text-indigo-400">Al-Yasari A, <i>Spence P</i>, El Moll H, Van Steerteghem N, Horton PN, Brunschwig BS, Clays K, Fielden J</span> • <span>Dalton Transactions</span> • <span>2018</span>
-                    </p>
-                    <div class="flex space-x-3">
-                        <a href="https://doi.org/10.1039/c8dt01491d" class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center" target="_blank" rel="noopener noreferrer">
-                            <i class="fas fa-external-link-alt mr-1"></i> DOI
-                        </a>
-                    </div>
-                </div>
+      <div class="w-full max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-white mb-6">Research Papers</h2>
+        <div class="space-y-6">
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              SmilesT5: Domain-specific pretraining for molecular language
+              models
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                ><i>Spence P</i>, Paige, B, Osbourn A</span
+              >
+              • <span>arXiv</span> • <span>2025</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.48550/arXiv.2507.22514"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
             </div>
+          </div>
+
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              Harnessing plant biosynthesis for the development of
+              next-generation therapeutics
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                ><i>Spence P</i>, Reed J, Osbourn A</span
+              >
+              • <span>PLOS Biology</span> • <span>2024</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.1371/journal.pbio.3002886"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              Optical, third order non-linear optical and electrochemical
+              properties of dipolar, centrosymmetric and C2v organoimido
+              polyoxometalate derivatives
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                >Al-Yasari A, El Moll H, Purdy R, Vincent KB, <i>Spence P</i>,
+                Malval JP, Fielden J</span
+              >
+              • <span>Physical Chemistry Chemical Physics</span> •
+              <span>2021</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.1039/d0cp06610a"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              [(C C)Au(N N)]<sup>+</sup> Complexes as a New Family of Anticancer
+              Candidates: Synthesis, Characterization and Exploration of the
+              Antiproliferative Properties
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                >Khodjoyan S, Remadna E, Dossmann H, Lesage D, Gontard G, Forté
+                J, Hoffmeister H, Basu U, Ott I, <i>Spence P</i> et al.</span
+              >
+              • <span>Chemistry – A European Journal</span> • <span>2021</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.1002/chem.202102751"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              Beyond Solvent Exclusion: i-Motif Detecting Capability and an
+              Alternative DNA Light-Switching Mechanism in a Ruthenium(II)
+              Polypyridyl Complex
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                ><i>Spence P</i>, Fielden J, Waller ZAE</span
+              >
+              • <span>Journal of the American Chemical Society</span> •
+              <span>2020</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.1021/jacs.0c04789"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="research-paper p-5 bg-gray-800 rounded-lg hover:bg-gray-750 transition-colors duration-300"
+          >
+            <h3 class="text-xl font-bold text-white mb-2">
+              Fine-tuning polyoxometalate non-linear optical chromophores: a
+              molecular electronic “Goldilocks” effect
+            </h3>
+            <p class="text-gray-400 mb-3">
+              <span class="text-indigo-400"
+                >Al-Yasari A, <i>Spence P</i>, El Moll H, Van Steerteghem N,
+                Horton PN, Brunschwig BS, Clays K, Fielden J</span
+              >
+              • <span>Dalton Transactions</span> • <span>2018</span>
+            </p>
+            <div class="flex space-x-3">
+              <a
+                href="https://doi.org/10.1039/c8dt01491d"
+                class="text-indigo-400 hover:text-indigo-300 transition-colors duration-300 flex items-center"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-external-link-alt mr-1"></i> DOI
+              </a>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    
+
     <!-- Footer -->
     <footer class="container mx-auto px-4 py-10 border-t border-gray-800">
-        <div class="w-full max-w-4xl mx-auto text-center">
-            <p class="text-gray-500">&copy; <span id="year">2025</span> Phil Spence. All rights reserved.</p>
-        </div>
+      <div class="w-full max-w-4xl mx-auto text-center">
+        <p class="text-gray-500">
+          &copy; <span id="year">2025</span> Phil Spence. All rights reserved.
+        </p>
+      </div>
     </footer>
 
     <script src="js/main.js"></script>
-</body>
+  </body>
 </html>
